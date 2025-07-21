@@ -28,7 +28,6 @@ A lightweight Retrieval-Augmented Generation (RAG) assistant that answers questi
 
    ```bash
    python load_chunk.py
-   python vector.py
    python embed_store.py
    ```
 5. Ask questions:
