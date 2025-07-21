@@ -11,7 +11,14 @@ from load_and_chunk import load_documents, split_documents
 import os
 
 
-model_path = os.path.expanduser("~/models/all-MiniLM-L6-v2")
+# Check whether to use local or online model
+USE_LOCAL = os.getenv("USE_LOCAL_MODEL", "false").lower() == "true"
+model_path = ""
+if USE_LOCAL:
+    model_path = os.path.expanduser("~/models/all-MiniLM-L6-v2")
+else:
+    model_path = "sentence-transformers/all-MiniLM-L6-v2"  # Hugging Face model ID"
+
 
 # Constants
 PERSIST_DIRECTORY = "./vector_store"

@@ -1,1 +1,19 @@
 # requirements.txt
+# Core RAG stack
+langchain>=0.1.0
+chromadb>=0.4.22
+
+# Embeddings (local model)
+sentence-transformers>=2.2.2
+huggingface-hub>=0.16.4
+
+# Optional if switching to OpenAI for inference
+openai>=1.2.3
+
+# For parsing markdown if needed
+markdown
+
+# Utility
+tqdm
+
+python-dotenv
