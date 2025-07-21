@@ -20,7 +20,7 @@ By default, the project uses the Hugging Face model `"sentence-transformers/all-
 
 To run in restricted (offline) environments:
 
-1. Download the model from Hugging Face into: `./models/all-MiniLM-L6-v2`
+1. Download the model from Hugging Face into: `~/models/all-MiniLM-L6-v2`
 2. Set the environment variable:
 
 ```bash
