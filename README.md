@@ -1,6 +1,6 @@
 # 🧠 DVC RAG Assistant
 
-A lightweight Retrieval-Augmented Generation (RAG) assistant that answers questions about [DVC (Data Version Control)](https://dvc.org) using local markdown docs and language models. No internet or cloud APIs required after setup.
+A lightweight Retrieval-Augmented Generation (RAG) assistant that answers questions about [DVC (Data Version Control)](https://dvc.org) using local markdown docs and language models. 
 
 ---
 
